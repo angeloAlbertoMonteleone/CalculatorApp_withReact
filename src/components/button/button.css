@@ -1,0 +1,34 @@
+.button {
+    border: none;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    padding: 13px;
+    border-radius: 50%;
+    background: rgb(64 64 64);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.button.long-button {
+    grid-column: 1 / span 2;
+    width: 6.8rem;
+    border-radius: 50px;
+    justify-content: flex-start;
+    padding-left: 19px;
+    position: relative;
+}
+
+.button.function {
+    background-color: rgb(173, 173, 173);
+    color: black;
+    font-weight: 400;
+}
+
+.button.parameter {
+    background-color: orange;
+    line-height: 1;
+}
